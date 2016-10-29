@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79A6ABB2-5472-42EA-BC2A-BD922F5CA83F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TricksTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DFC746BA9FDA146AD26FD614227EB4EAC979E01D</key>
+		<string>github.com:Sublio/Tips-Tricks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TricksTest/TricksTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DFC746BA9FDA146AD26FD614227EB4EAC979E01D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Sublio/Tips-Tricks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DFC746BA9FDA146AD26FD614227EB4EAC979E01D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFC746BA9FDA146AD26FD614227EB4EAC979E01D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tips</string>
+		</dict>
+	</array>
+</dict>
+</plist>

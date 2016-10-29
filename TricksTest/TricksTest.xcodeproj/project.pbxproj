@@ -15,6 +15,7 @@
 		8D04B9CE1DC4CA6400BD9DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D04B9CD1DC4CA6400BD9DBC /* Images.xcassets */; };
 		8D04B9D11DC4CA6400BD9DBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D04B9CF1DC4CA6400BD9DBC /* LaunchScreen.xib */; };
 		8D04B9DD1DC4CA6400BD9DBC /* TricksTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04B9DC1DC4CA6400BD9DBC /* TricksTestTests.m */; };
+		8D04B9E81DC4CBF400BD9DBC /* DMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04B9E71DC4CBF400BD9DBC /* DMUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8D04B9D61DC4CA6400BD9DBC /* TricksTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TricksTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D04B9DB1DC4CA6400BD9DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D04B9DC1DC4CA6400BD9DBC /* TricksTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TricksTestTests.m; sourceTree = "<group>"; };
+		8D04B9E61DC4CBF400BD9DBC /* DMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUtils.h; sourceTree = "<group>"; };
+		8D04B9E71DC4CBF400BD9DBC /* DMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				8D04B9C21DC4CA6400BD9DBC /* AppDelegate.m */,
 				8D04B9C71DC4CA6400BD9DBC /* ViewController.h */,
 				8D04B9C81DC4CA6400BD9DBC /* ViewController.m */,
+				8D04B9E61DC4CBF400BD9DBC /* DMUtils.h */,
+				8D04B9E71DC4CBF400BD9DBC /* DMUtils.m */,
 				8D04B9CA1DC4CA6400BD9DBC /* Main.storyboard */,
 				8D04B9CD1DC4CA6400BD9DBC /* Images.xcassets */,
 				8D04B9CF1DC4CA6400BD9DBC /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				8D04B9C31DC4CA6400BD9DBC /* AppDelegate.m in Sources */,
 				8D04B9C61DC4CA6400BD9DBC /* TricksTest.xcdatamodeld in Sources */,
 				8D04B9C91DC4CA6400BD9DBC /* ViewController.m in Sources */,
+				8D04B9E81DC4CBF400BD9DBC /* DMUtils.m in Sources */,
 				8D04B9C01DC4CA6400BD9DBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
