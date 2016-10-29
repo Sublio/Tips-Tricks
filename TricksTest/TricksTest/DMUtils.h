@@ -10,6 +10,10 @@
 #import <UIKit/UIKit.h>
 
 
+#define APP_SHORT_NAME @"TRICKS";
+#define PRODUCTION_BUILD
+#define LOGS_ENABLED 1
+
 
 NSString* fancyDateStringFromDate(NSDate* date);
 
@@ -25,3 +29,5 @@ typedef enum {
 
 
 NSString* NSStringFromDMProgrammerType(DMProgrammerType type);
+
+void  DMLog(NSString* format, ...);

@@ -37,3 +37,30 @@ BOOL iPhone(){
     return ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone);
     
 }
+
+
+NSString* NSStringFromDMProgrammerType(DMProgrammerType type){
+    
+    switch (type) {
+        case DMProgrammerTypeJunior:return @"DMProgrammerTypeJunior";
+        case DMProgrammerTypeMid:return @"DMProgrammerTypeMid";
+        case DMProgrammerTypeSenior:return @"DMProgrammerTypeSenior";
+            
+        default:return nil;
+    }
+    
+}
+
+
+void  DMLog(NSString* format, ...){
+    
+#if LOGS_ENABLED
+    va_list argumentList;
+    va_start(argumentList,format);
+    
+    NSLogv(format, argumentList);
+    
+    va_end(argumentList);
+    
+#endif
+}

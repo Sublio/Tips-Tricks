@@ -19,16 +19,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog (@"%@",fancyDateStringFromDate([NSDate date]));
+    
+#ifdef PRODUCTION_BUILD
+    
+    
+    
+    
+#endif
+    
+    DMLog(@"%@",fancyDateStringFromDate([NSDate date]));
     
     if (iPad()){
         
-        NSLog(@"iPad");
+        DMLog(@"iPad");
         
     }else {
         
-        NSLog(@"iPhone");
+        DMLog(@"iPhone");
     }
+    
+    //NSLog(@"%@",NSStringFromDMProgrammerType(DMProgrammerTypeMid));
 }
 
 - (void)didReceiveMemoryWarning {
