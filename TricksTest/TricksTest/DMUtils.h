@@ -8,3 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
+
+
+NSString* fancyDateStringFromDate(NSDate* date);

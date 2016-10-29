@@ -8,3 +8,21 @@
 
 #import "DMUtils.h"
 
+
+
+
+NSString* fancyDateStringFromDate(NSDate* date){
+    
+    
+    
+    static NSDateFormatter* formatter = nil;
+    
+    if(!formatter){
+        
+        
+        formatter = [[NSDateFormatter alloc]init];
+        [formatter setDateFormat:@"-- dd: MM : yy --"];
+    }
+    
+    return [formatter stringFromDate:date];
+}
