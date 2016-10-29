@@ -20,6 +20,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog (@"%@",fancyDateStringFromDate([NSDate date]));
+    
+    if (iPad()){
+        
+        NSLog(@"iPad");
+        
+    }else {
+        
+        NSLog(@"iPhone");
+    }
 }
 
 - (void)didReceiveMemoryWarning {

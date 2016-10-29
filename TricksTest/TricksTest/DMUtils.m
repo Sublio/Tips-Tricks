@@ -26,3 +26,14 @@ NSString* fancyDateStringFromDate(NSDate* date){
     
     return [formatter stringFromDate:date];
 }
+
+
+BOOL iPad(){
+    
+    return ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
+}
+BOOL iPhone(){
+    
+    return ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone);
+    
+}

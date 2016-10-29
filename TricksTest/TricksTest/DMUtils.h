@@ -7,8 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 
 
 NSString* fancyDateStringFromDate(NSDate* date);
+
+BOOL iPad();
+BOOL iPhone();
+
+
+typedef enum {
+    DMProgrammerTypeJunior,
+    DMProgrammerTypeMid,
+    DMProgrammerTypeSenior
+} DMProgrammerType;
+
+
+NSString* NSStringFromDMProgrammerType(DMProgrammerType type);
