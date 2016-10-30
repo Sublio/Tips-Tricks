@@ -9,7 +9,8 @@
 #import "DMUtils.h"
 
 
-
+NSString * const DMLogNotification=@"DMLogNotification";
+NSString * const DMLogNotificationTextUserInfoKey=@"DMLogNotificationTextUserInfoKey";
 
 NSString* fancyDateStringFromDate(NSDate* date){
     
@@ -60,6 +61,13 @@ void  DMLog(NSString* format, ...){
     
     NSLogv(format, argumentList);
     
+
+    NSString* log = [[NSString alloc]initWithFormat:format arguments:argumentList];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:DMLogNotification object:nil userInfo:@{DMLogNotificationTextUserInfoKey: log}];
+    
+    
+
     va_end(argumentList);
     
 #endif

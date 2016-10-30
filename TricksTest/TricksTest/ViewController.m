@@ -39,6 +39,24 @@
     }
     
     //NSLog(@"%@",NSStringFromDMProgrammerType(DMProgrammerTypeMid));
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:DMLogNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *notif) {
+        self.consoleView.text=[NSString stringWithFormat:@"%@\n%@", self.consoleView.text,[notif.userInfo objectForKey:DMLogNotificationTextUserInfoKey]];
+    }];
+}
+
+
+- (void) dealloc {
+    
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+    
+}
+
+
+-(IBAction)actionTest:(id)sender{
+    
+    
+    DMLog(@"action Test");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,6 +13,7 @@
 #define APP_SHORT_NAME @"TRICKS";
 #define PRODUCTION_BUILD
 #define LOGS_ENABLED 1
+#define LOGS_NOTIFICATIONS_ENABLED 0
 
 
 NSString* fancyDateStringFromDate(NSDate* date);
@@ -20,6 +21,9 @@ NSString* fancyDateStringFromDate(NSDate* date);
 BOOL iPad();
 BOOL iPhone();
 
+
+extern NSString * const DMLogNotification;
+extern NSString * const DMLogNotificationTextUserInfoKey;
 
 typedef enum {
     DMProgrammerTypeJunior,
